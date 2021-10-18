@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <title>Buttons</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1> Responsive images</h1>
+        <p>image fluids</p>
+        
+        <div style="width: 40%; border: 5px red solid;">
+            <!-- the classs img-fluid bind the image into the parent div and make it responsive -->
+            <img class="img-fluid" src="../images/le-mansory-3.webp" /> 
+        </div>
+
+        <p>image floats</p>
+            
+        <img class="rounded float-end" src="../images/le-mansory-5.webp" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat commodi ratione, mollitia soluta eveniet, iure praesentium, vel quaerat dolorum facere illo. Ab, voluptatem consequatur mollitia explicabo repudiandae placeat fugit nisi nesciunt omnis nobis officiis eos sed? Qui corrupti, porro velit in reprehenderit saepe, sed perferendis optio accusamus ipsum, ut doloribus.</p>
+        
+        <!-- use cleafix to reset float value once all of the rest of the page will be float-end -->
+        <div class="clearfix my-5"></div>
+
+        <!-- align image in the center of screen (mx-auto) and allow display flex with (d-block) -->
+        <img class="rounded d-block mx-auto" src="../images/le-mansory-4.webp" alt="le mansory" />
+
+        <div class="clearfix"></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
